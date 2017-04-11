@@ -6,7 +6,7 @@
 
 // Ex 1
 // Regex
-# /[BTC]orn/ig
+ /[BTC]orn/ig
 
 // Text 
 #Born
@@ -18,10 +18,10 @@
 // Ex 2
 // Matching 3 www or max 5
 #Regex
-# /[w]{3, 5}/ig
-# /[w]*/ig match 0 or more characters
-# /[w]+/ig match 1 or more characters
-# /[w]?/ig match 0 or 1 character
+ /[w]{3, 5}/ig
+ /[w]*/ig match 0 or more characters
+ /[w]+/ig match 1 or more characters
+ /[w]?/ig match 0 or 1 character
 
 // Text 
 # www
@@ -30,7 +30,7 @@
 // Ex 3 
 // Regex
 // . matches anything except line break
-# /www\.([^\.]+)/ig 
+ /www\.([^\.]+)/ig 
 
 // Text 
 # www.najibunsubuga.me
