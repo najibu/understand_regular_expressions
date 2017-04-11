@@ -24,7 +24,7 @@ Using a practical, real world example, let's review regular expression greedines
 Often, you'll find yourself in the position of needing to match a set of characters only if they are proceeded or preceded by another sequence. When writing regular expressions, we can use lookaheads and lookbehinds to allow for this.
 <br />
 
-3. PHP's Regular Expressions Support <br />
+6. PHP's Regular Expressions Support <br />
 So far, we've mostly been focusing on the regular expression syntax. But, now, let's switch over to PHP and learn about the various regex-specific functions that are available to us.
 <br />
 
