@@ -7,10 +7,12 @@
 // Ex 1
 /\$NAME\$/g
 
-My name is $NAME$.
+$string = "My name is $NAME$";
 
 # PHP
 $output = preg_replace('/\$NAME\$/', 'Najibu Nsubuga', $string);
+
+echo $output;
 
 # Anything between the dollar sign
 /\$.+\$/g
